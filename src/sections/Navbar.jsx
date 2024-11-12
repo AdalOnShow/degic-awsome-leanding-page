@@ -30,7 +30,7 @@ const Navbar = () => {
             <img src="assets/logo.png" alt="logo" className="object-contain max-w-40 cursor-pointer" />
           </a>
 
-          <button onClick={toggleMenu} className="bg-black p-2 rounded-md sm:hidden" aria-label="Toggle Menu">
+          <button onClick={toggleMenu} className="sm:hidden" aria-label="Toggle Menu">
             <img src={isOpen ? "assets/close.svg" : "assets/menu.svg"} alt="toggle" className="size-8 text-black" />
           </button>
 
