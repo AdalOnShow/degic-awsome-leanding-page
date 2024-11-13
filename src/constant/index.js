@@ -20,3 +20,30 @@ export const navLinks = [
     href: "#contacts",
   },
 ]
+
+export const featureItems = [
+  {
+    id: 1,
+    img: "/assets/management.png",
+    title: "Management",
+    description: "Software platform for running your new internet business",
+  },
+  {
+    id: 2,
+    img: "/assets/entertainment.png",
+    title: "Entertainment",
+    description: "Software platform for running your new internet business",
+  },
+  {
+    id: 3,
+    img: "/assets/marketing.png",
+    title: "Marketing",
+    description: "Software platform for running your new internet business",
+  },
+  {
+    id: 4,
+    img: "/assets/references.png",
+    title: "References",
+    description: "Software platform for running your new internet business",
+  },
+]

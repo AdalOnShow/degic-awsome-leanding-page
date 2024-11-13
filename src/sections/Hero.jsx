@@ -2,7 +2,7 @@ import Button from "../components/Button"
 
 const Hero = () => {
   return (
-    <section className="container mx-auto px-4 mt-5 md:mt-[100px]">
+    <section className="container mx-auto px-4 mt-5 pb-4 md:mt-[100px] max-w-[1300px]">
       <div className="flex flex-col md:flex-row justify-evenly items-center gap-8 md:gap-4">
         <div className="order-2 md:order-1 max-w-[640px]">
           <h1 className="text-black text-4xl lg:text-5xl xl:text-7xl font-semibold">Simply explained <br /> with illustrations</h1>
