@@ -4,6 +4,7 @@ import Feature from './sections/Feature';
 import Carousel from './sections/Carousel';
 import Videos from './sections/Videos';
 import Time from './sections/Time';
+import Bomb from './sections/Bomb';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Carousel />
       <Videos />
       <Time />
+      <Bomb />
     </>
   )
 }

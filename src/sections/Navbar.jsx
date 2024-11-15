@@ -31,7 +31,7 @@ const Navbar = () => {
           </a>
 
           <button onClick={toggleMenu} className="sm:hidden" aria-label="Toggle Menu">
-            <img src={isOpen ? "assets/close.svg" : "assets/menu.svg"} alt="toggle" className="size-8 text-black" />
+            <img src={isOpen ? "/close.svg" : "/menu.svg"} alt="toggle" className="size-8 text-black" />
           </button>
 
           <nav className="hidden sm:flex">

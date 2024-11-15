@@ -11,7 +11,7 @@ const Hero = () => {
 
           <div className="mt-5 md:mt-20 flex gap-2.5">
             <Button text="Get Started" className="bg-[#5F62E2] text-[#ffffff]" />
-            <Button text="Get Started" className="bg-[#5F62E2]/15 text-[#5F62E2]" />
+            <Button text="Learn More" className="bg-[#5F62E2]/15 text-[#5F62E2]" />
           </div>
         </div>
 
