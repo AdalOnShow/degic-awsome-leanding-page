@@ -5,6 +5,7 @@ import Carousel from './sections/Carousel';
 import Videos from './sections/Videos';
 import Time from './sections/Time';
 import Bomb from './sections/Bomb';
+import Blog from './sections/Blog';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Videos />
       <Time />
       <Bomb />
+      <Blog />
     </>
   )
 }

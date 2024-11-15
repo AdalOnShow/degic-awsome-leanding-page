@@ -9,18 +9,12 @@ const Time = () => {
         <div className="max-w-[460px]">
           <h2 className="text-5xl lg:text-[55px] font-medium leading-[60px]">Make more time for the work</h2>
           <div className="my-6">
-            <div className="flex justify-start items-center gap-2.5 mb-[22px]">
-              <img src="/ok.png" alt="ok" className="size-6" />
-              <p className="text-[21px]">Many ways to use illustrations in design</p>
-            </div>
-            <div className="flex justify-start items-center gap-2.5 mb-[22px]">
-              <img src="/ok.png" alt="ok" className="size-6" />
-              <p className="text-[21px]">Simply explained with illustrations</p>
-            </div>
-            <div className="flex justify-start items-center gap-2.5 mb-[22px]">
-              <img src="/ok.png" alt="ok" className="size-6" />
-              <p className="text-[21px]">Make more time for the work</p>
-            </div>
+            {["Many ways to use illustrations in design", "Simply explained with illustrations", "Make more time for the work"].map((item, i) => (
+              <div key={i} className="flex justify-start items-center gap-2.5 mb-[22px]">
+                <img src="/ok.png" alt="ok" className="size-6" />
+                <p className="text-[21px]">{item}</p>
+              </div>
+            ))}
           </div>
           <Button text="Learn more" icon="/arrow.svg" className=" bg-[#5F62E226] text-[#5F62E2] hover:bg-[#5F62E2] hover:text-white transition-colors duration-200" />
         </div>
@@ -30,18 +24,12 @@ const Time = () => {
         <div className="max-w-[460px] order-2 md:order-1">
           <h2 className="text-5xl lg:text-[55px] font-medium leading-[60px]">Make more time for the work</h2>
           <div className="my-6">
-            <div className="flex justify-start items-center gap-2.5 mb-[22px]">
-              <img src="/ok.png" alt="ok" className="size-6" />
-              <p className="text-[21px]">Many ways to use illustrations in design</p>
-            </div>
-            <div className="flex justify-start items-center gap-2.5 mb-[22px]">
-              <img src="/ok.png" alt="ok" className="size-6" />
-              <p className="text-[21px]">Simply explained with illustrations</p>
-            </div>
-            <div className="flex justify-start items-center gap-2.5 mb-[22px]">
-              <img src="/ok.png" alt="ok" className="size-6" />
-              <p className="text-[21px]">Make more time for the work</p>
-            </div>
+            {["Many ways to use illustrations in design", "Simply explained with illustrations", "Make more time for the work"].map((item, i) => (
+              <div key={i} className="flex justify-start items-center gap-2.5 mb-[22px]">
+                <img src="/ok.png" alt="ok" className="size-6" />
+                <p className="text-[21px]">{item}</p>
+              </div>
+            ))}
           </div>
           <Button text="Learn more" icon="/arrow.svg" className=" bg-[#5F62E226] text-[#5F62E2] hover:bg-[#5F62E2] hover:text-white transition-colors duration-200" />
         </div>
