@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
 
         <div className="order-1 md:order-2">
-          <img src="/assets/hero.png" alt="hero image" className="object-contain" />
+          <img src="/hero.png" alt="hero image" className="object-contain" />
         </div>
       </div>
     </section>

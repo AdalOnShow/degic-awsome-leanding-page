@@ -2,6 +2,8 @@ import Navbar from './sections/Navbar';
 import Hero from './sections/Hero';
 import Feature from './sections/Feature';
 import Carousel from './sections/Carousel';
+import Videos from './sections/Videos';
+import Time from './sections/Time';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Hero />
       <Feature />
       <Carousel />
+      <Videos />
+      <Time />
     </>
   )
 }

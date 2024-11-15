@@ -19,20 +19,20 @@ const Feature = () => {
           <div>
             <h2 className="text-4xl sm:text-[55px] font-medium leading-none sm:leading-[60px]">The quickest way to create modern presentation</h2>
             <p className="text-base sm:text-[21px] text-[#00000080] mt-[16px] mb-[29px]">Best software platform for running an internet business. We build the most powerful and flexible tools for internet commerce.</p>
-            <Button text="Explore All" className="bg-[#5F62E226] text-[#5F62E2]" icon="/assets/featureArrow.svg" />
+            <Button text="Explore All" className="bg-[#5F62E226] text-[#5F62E2]" icon="/featureArrow.svg" />
           </div>
 
           <div className="mt-20 lg:mt-[180px]">
             <p className="text-base text-[#00000080]">Follow us</p>
             <div className="flex justify-center items-center gap-2 pt-5">
               <a href="#">
-                <img src="/assets/facebook.png" alt="facebook" className="size-[50px]" />
+                <img src="/facebook.png" alt="facebook" className="size-[50px]" />
               </a>
               <a href="#">
-                <img src="/assets/instagram.png" alt="instagram" className="size-[50px]" />
+                <img src="/instagram.png" alt="instagram" className="size-[50px]" />
               </a>
               <a href="#">
-                <img src="/assets/twitter.png" alt="twitter" className="size-[50px]" />
+                <img src="/twitter.png" alt="twitter" className="size-[50px]" />
               </a>
             </div>
           </div>

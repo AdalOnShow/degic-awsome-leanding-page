@@ -24,25 +24,25 @@ export const navLinks = [
 export const featureItems = [
   {
     id: 1,
-    img: "/assets/management.png",
+    img: "/management.png",
     title: "Management",
     description: "Software platform for running your new internet business",
   },
   {
     id: 2,
-    img: "/assets/entertainment.png",
+    img: "/entertainment.png",
     title: "Entertainment",
     description: "Software platform for running your new internet business",
   },
   {
     id: 3,
-    img: "/assets/marketing.png",
+    img: "/marketing.png",
     title: "Marketing",
     description: "Software platform for running your new internet business",
   },
   {
     id: 4,
-    img: "/assets/references.png",
+    img: "/references.png",
     title: "References",
     description: "Software platform for running your new internet business",
   },

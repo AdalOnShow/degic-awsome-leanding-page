@@ -4,14 +4,14 @@ const Carousel = () => {
       <div className="container mx-auto max-w-[1300px] flex flex-col lg:flex-row justify-center items-center gap-16 lg:gap-[110px]">
         <div className="order-2 lg:order-1 flex flex-col justify-start items-start max-w-[470px]">
           <div className="flex items-center justify-center gap-2 font-medium text-xl text-black">
-            <img src="/assets/Shape.png" alt="shape" className="size-[34px]" />Logo
+            <img src="/Shape.png" alt="shape" className="size-[34px]" />Logo
           </div>
 
           <div className="relative">
             <h2 className="mt-[29px] text-4xl md:text5 lg:text-[55px] font-medium leading-none lg:leading-[60px] flex"><span>
-              <img src="/assets/quot-1.svg" alt="quotation" className="absolute top-8 -left-5 hidden lg:block" />
+              <img src="/quot-1.svg" alt="quotation" className="absolute top-8 -left-5 hidden lg:block" />
             </span>Make more time for the work that matters most <span>
-                <img src="/assets/quot-2.svg" alt="quotation" className="absolute bottom-10 right-32 hidden lg:block" />
+                <img src="/quot-2.svg" alt="quotation" className="absolute bottom-10 right-32 hidden lg:block" />
               </span></h2>
           </div>
 
@@ -19,19 +19,19 @@ const Carousel = () => {
 
           <div className="flex gap-2">
             <a href="">
-              <img src="/assets/v.png" alt="arrow" className="size-8 md:size-[50px]" />
+              <img src="/v.png" alt="arrow" className="size-8 md:size-[50px]" />
             </a>
             <a href="">
-              <img src="/assets/v.png" alt="arrow" className="size-8 md:size-[50px] rotate-180" />
+              <img src="/v.png" alt="arrow" className="size-8 md:size-[50px] rotate-180" />
             </a>
           </div>
         </div>
 
         <div className="order-1 lg:order-2">
-          <img src="/assets/Carousel.png" alt="Hello" className="object-contain max-w-full" />
+          <img src="/Carousel.png" alt="Hello" className="object-contain max-w-full" />
         </div>
       </div>
-      <img src="/assets/Logos.png" alt="logos" className="object-cover mx-auto mt-[70px]" />
+      <img src="/Logos.png" alt="logos" className="object-cover mx-auto mt-[70px]" />
 
     </section>
   )

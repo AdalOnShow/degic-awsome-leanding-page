@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center mx-auto">
           <a href="/">
-            <img src="assets/logo.png" alt="logo" className="object-contain max-w-40 cursor-pointer" />
+            <img src="/logo.png" alt="logo" className="object-contain max-w-40 cursor-pointer" />
           </a>
 
           <button onClick={toggleMenu} className="sm:hidden" aria-label="Toggle Menu">
