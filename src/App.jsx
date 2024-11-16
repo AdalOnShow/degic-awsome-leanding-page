@@ -6,6 +6,7 @@ import Videos from './sections/Videos';
 import Time from './sections/Time';
 import Bomb from './sections/Bomb';
 import Blog from './sections/Blog';
+import Footer from './sections/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Time />
       <Bomb />
       <Blog />
+      <Footer />
     </>
   )
 }

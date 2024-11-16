@@ -71,3 +71,22 @@ export const blogs = [
     btn: "Development",
   },
 ]
+
+export const footerLinks = [
+  {
+    title: "Home",
+    links: ["Become Affiliate", "Go Unlimited", "Services"]
+  },
+  {
+    title: "Products",
+    links: ["Design Systems", "Themes & Templates", "Mockups", "Presentations", "Wireframes Kits", "UI Kits"]
+  },
+  {
+    title: "Legals",
+    links: ["License", "Refund Policy", "About Us", "Contacts"]
+  },
+  {
+    title: "Blog",
+    links: ["Business Stories", "Digital Store", "Learning", "Social Media"]
+  },
+]
