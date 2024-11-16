@@ -1,6 +1,6 @@
 const Carousel = () => {
   return (
-    <section className="bg-white py-[94px] px-4">
+    <section className="bg-white py-[94px] px-4" id="about">
       <div className="container mx-auto max-w-[1300px] flex flex-col lg:flex-row justify-center items-center gap-16 lg:gap-[110px]">
         <div className="order-2 lg:order-1 flex flex-col justify-start items-start max-w-[470px]">
           <div className="flex items-center justify-center gap-2 font-medium text-xl text-black">
@@ -18,11 +18,11 @@ const Carousel = () => {
           <p className="text-base md:text-[21px] my-[26px] text-[#00000080] max-w-[330px]">Best software platform for running an internet business.</p>
 
           <div className="flex gap-2">
-            <a href="">
-              <img src="/v.png" alt="arrow" className="size-8 md:size-[50px]" />
+            <a href="#">
+              <img src="/v.png" alt="arrow" className="size-8 md:size-[50px] hover:scale-150 transition-all duration-200" />
             </a>
-            <a href="">
-              <img src="/v.png" alt="arrow" className="size-8 md:size-[50px] rotate-180" />
+            <a href="#">
+              <img src="/v.png" alt="arrow" className="size-8 md:size-[50px] hover:scale-150 transition-all duration-200 rotate-180" />
             </a>
           </div>
         </div>

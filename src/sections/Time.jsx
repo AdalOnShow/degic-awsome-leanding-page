@@ -4,7 +4,7 @@ const Time = () => {
   return (
     <section className="container mx-auto max-w-[1300px] px-4 py-[87px]">
       <div className="flex flex-col md:flex-row justify-center items-center gap-20 md:gap-5 lg:gap-[150px]">
-        <img src="/cake.png" alt="cake" className="md:w-[50%] lg:w-full max-w-[420px] object-cover" />
+        <img src="/cake.png" alt="cake" className="w-[350px] md:w-[50%] lg:w-full max-w-[420px] object-cover" />
 
         <div className="max-w-[460px]">
           <h2 className="text-5xl lg:text-[55px] font-medium leading-[60px]">Make more time for the work</h2>
@@ -34,7 +34,7 @@ const Time = () => {
           <Button text="Learn more" icon="/arrow.svg" className=" bg-[#5F62E226] text-[#5F62E2] hover:bg-[#5F62E2] hover:text-white transition-colors duration-200" />
         </div>
 
-        <img src="/jul-a.png" alt="cake" className="md:w-[50%] lg:w-full max-w-[420px] object-cover order-1 md:order-2" />
+        <img src="/jul-a.png" alt="cake" className="w-[350px] md:w-[50%] lg:w-full max-w-[420px] object-cover order-1 md:order-2" />
       </div>
     </section>
   )

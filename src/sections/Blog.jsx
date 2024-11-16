@@ -15,7 +15,7 @@ const Blog = () => {
 
       <div className="mt-[47px] grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-[30px]">
         {blogs.map(({ img, shadow, title, des, btn }, i) => (
-          <div key={i} className="max-w-[410px] mx-auto">
+          <div key={i} className="max-w-[410px] mx-auto rounded-[10px] p-1 hover:scale-105 hover:shadow-md transition-all duration-200">
             <div className="flex justify-center items-center py-[50px] px-[118px] relative bg-[#F6F6FA] rounded-[10px]">
               <img src={img} alt="" className="w-full object-cover" />
               <img src={shadow} alt="" className="absolute top-0 right-0" />

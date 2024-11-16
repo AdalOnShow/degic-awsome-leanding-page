@@ -23,10 +23,10 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen((prev) => !prev)
 
   return (
-    <header className="border-b">
+    <header className="border-b fixed w-full top-0 right-0 bg-white z-40">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center mx-auto">
-          <a href="/">
+          <a href="#">
             <img src="/logo.png" alt="logo" className="object-contain max-w-40 cursor-pointer" />
           </a>
 

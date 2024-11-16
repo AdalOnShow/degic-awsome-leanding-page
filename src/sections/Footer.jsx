@@ -14,7 +14,7 @@ const Footer = () => {
               <div className="flex flex-col justify-start items-start gap-[16px]">
                 {links.map((item, i) => (
 
-                  <a key={i} href="/" className="text-xs md:text-[15px] font-medium text-[#FFFFFF80] hover:underline opacity-90">{item}</a>
+                  <a key={i} href="/" className="text-xs md:text-sm font-medium text-[#FFFFFF80] hover:underline opacity-90">{item}</a>
                 ))}
               </div>
             </div>
@@ -28,7 +28,7 @@ const Footer = () => {
 
           <div className="flex justify-center items-center gap-[13px]">
             {["/footer-facebook.png", "/footer-instagram.png", "/footer-twitter.png"].map((item, i) => (
-              <img key={i} src={item} alt="" className="size-[30px] md:size-[50px] cursor-pointer" />
+              <img key={i} src={item} alt="" className="size-[30px] md:size-[50px] cursor-pointer hover:scale-110 transition-all duration-200" />
             ))}
           </div>
         </div>
